@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.firstpic{
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.avatar{
+    width: 30px;
+    border: 0.2px solid white;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left:15px;
+}
+
+.container{
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+h3, p{
+    padding-left: 25px;
+}
+
+h3{
+    color:white;
+}
+
+.bodytext{
+    font-size: medium;
+    color:hsl(215, 51%, 70%);
+}
+
+.equlibrum{
+    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+}
+
+.equlibrum .eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.equlibrum .clock{
+    color: hsl(215, 51%, 70%);
+}
+
+.eth img{
+    padding-right: 5px;
+}
+
+
+.clock img{
+    padding-right: 5px; 
+}
+
+.footer{
+    padding-bottom: 10px;
+}
+
+.eth, .clock{
+    font-size: medium;
+}
+
+hr{
+    width: 250px;
+    background-color: hsl(215, 51%, 70%);
+    border: 0 none;
+    height: 1px;
+}
+
+.footer {
+    display: flex;
+    font-size: small;
+    padding-left:10px;
+}
+
+.footer p{
+    color: hsl(215, 51%, 70%);
+}
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
